@@ -28,7 +28,7 @@ def Blink(numTimes, speed):
         GPIO.cleanup()
 
 ## Prompt user for input
-iterations = raw_input("Enter the total number of times to blink: ")
+numTimes = raw_input("Enter the total number of times to blink: ")
 speed = raw_input("Enter the length of each blink in seconds: ")
 
 ## Start Blink() function. Convert user input from strings to numeric data types and pass to Blink() as parameters
