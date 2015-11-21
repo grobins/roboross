@@ -24,7 +24,7 @@ def Blink(numTimes, speed):
         GPIO.output(23, True)
         time.sleep(speed) ## Wait
         print "Done" ## When loop is complete, print "Done"
-        GPIO.cleanup()
+    GPIO.cleanup()
 
 ## Prompt user for input
 numTimes = raw_input("Enter the total number of times to blink: ")
