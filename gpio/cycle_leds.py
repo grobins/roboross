@@ -32,4 +32,4 @@ numTimes = raw_input("Enter the total number of times to blink: ")
 speed = raw_input("Enter the length of each blink in seconds: ")
 
 ## Start Blink() function. Convert user input from strings to numeric data types and pass to Blink() as parameters
-Blink(int(iterations),float(speed))
+Blink(int(numTimes),float(speed))
