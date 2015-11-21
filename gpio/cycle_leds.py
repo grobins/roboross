@@ -23,7 +23,6 @@ def Blink(numTimes, speed):
         GPIO.output(21, False)        
         GPIO.output(23, True)
         time.sleep(speed) ## Wait
-        GPIO.output(23, False)        
         print "Done" ## When loop is complete, print "Done"
         GPIO.cleanup()
 
